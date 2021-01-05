@@ -9,11 +9,11 @@ public class TempConverter {
         Scanner input;
 
         input = new Scanner(System.in);
-        System.out.println("Enter the temperature in Fahrenheit: ");
+        System.out.println("Enter the temperature in fahrenheit");
         fahrenheit = input.nextDouble();
         input.close();
 
         celsius = (fahrenheit - 32) * 5/9;
-        System.out.println("The temperature in Celsius is: " + celsius + "°C");
+        System.out.println("The temperature in Celsius is: " + celsius + "C");
     }
 }
